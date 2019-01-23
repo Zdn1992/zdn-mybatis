@@ -7,6 +7,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * 执行器,封装了对JDBC的操作
+ */
 public class ZExcutor implements Excutor {
 
     private ZConfiguration xmlConfig = new ZConfiguration();

@@ -79,7 +79,11 @@ public class ZConfiguration {
         return node.hasContent() ? node.getText() : node.attributeValue("value");
     }
 
-
+    /**
+     * 获取Mapper.xml中的相关信息
+     * @param path
+     * @return
+     */
     public MapperBean readMapper(String path){
         MapperBean mapper = new MapperBean();
         try {
