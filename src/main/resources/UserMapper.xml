@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.zdn.mybatis.mapper.UserMapper">
+    <select id="getUser" resultType="com.zdn.mybatis.entity.UserPo">
+        select * from t_test_user where id = ?
+    </select>
+
+</mapper>
