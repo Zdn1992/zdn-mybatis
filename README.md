@@ -23,7 +23,7 @@
     还有一个重要的是getMapper(),获取动态代理实现的Mapper。
     
 * Excutor
-    * 负责对JDBC的模版代码进行一层封装。
+    * 负责对JDBC的模版代码进行一层封装,以及对一二级缓存的操作
     
 * Mapper Statement
     * 对输入参数,和返回的结果集进行映射。     
